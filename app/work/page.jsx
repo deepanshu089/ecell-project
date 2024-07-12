@@ -7,7 +7,7 @@ import {BsArrowUpRight , BsGithub} from 'react-icons/bs';
 import {Tooltip,TooltipContent,TooltipProvider,TooltipTrigger} from "@/components/ui/tooltip";
 import Link from "next/link";
 import Image from "next/image";
-import WorkSliderBtns from "@/components/WorkSliderBtns";
+
 
 const projects = [
   {
@@ -35,11 +35,6 @@ const projects = [
 const Work = () => {
 
   const [project,setProject]= useState(projects[0]);
-
-  const handleSlideChange=(swiper)=>{
-    const currentIndex=swiper.activeIndex;
-    setProject(projects[currentIndex])
-  }
   return (
     <motion.section initial={{opacity:0}} animate={{opacity:1 , transition:{delay:2.4,duration:0.4,ease:"easeIn"}}} className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0">
       <div className="container mx-auto">
