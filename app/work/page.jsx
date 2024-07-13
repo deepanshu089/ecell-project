@@ -44,6 +44,14 @@ const Work = () => {
             <div className="text-8xl leading-none font-extrabold text-transparent text-outline">{project.num}</div>
             <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration:500 capitalize"> {project.category}</h2>
             <p className="text-white/60">{project.description}</p>
+            <div>
+              <img
+                src="/assets/project1.png"
+                class="img-fluid rounded-top"
+                alt="project1"
+              />
+              
+            </div>
             <ul className="flex gap-4">
               {project.stack.map((item,index)=>{
                 return <li key={index} className="text-xl text-accent">{item.name}

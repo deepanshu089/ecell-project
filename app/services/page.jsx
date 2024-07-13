@@ -26,7 +26,7 @@ const services=[
   {
     num:'04',
     title:'VIDEO EDITING',
-    description:'Experienced in video editing, with a strong command of tools like Adobe Premiere Pro and Capcut. Also have a youtube channel showcasing Videoediting skills.',
+    description:'Experienced in tools like Adobe Premiere Pro and Capcut. Also have a youtube channel showcasing skills.',
     href:""
   },
 ]

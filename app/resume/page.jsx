@@ -84,7 +84,7 @@ const education={
 
 const skills={
   title:"My Skills",
-  description:"jjklf nofkj  fnnkjf nfkjf ndfjj ndfjjk fnjkaekj fkasnk nfj",
+  description:"Proficient in multiple programming languages including C, C++,HTML, CSS and JavaScript. Experienced in applying these languages to develop software solutions, automate tasks, and build web applications.",
   skillList:[
     {
       icon:<FaHtml5/>,
